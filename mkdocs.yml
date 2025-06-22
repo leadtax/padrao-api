@@ -1,0 +1,20 @@
+site_name: LeadTax API
+nav:
+  - Home: index.md
+  - API Municipal:
+      - Overview: municipal.md
+      - Endpoints:
+          - Consultar: consultar.md
+          - Escriturar: escriturar.md
+          - Gerar: gerar.md
+          - Excluir: excluir.md
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    primary: indigo
+    accent: pink
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.expand
